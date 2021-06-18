@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>j²² 
+    <div>
       <input type='file' accept='.csv' />
     </div>
   );
