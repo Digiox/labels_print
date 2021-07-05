@@ -5,3 +5,12 @@
     visibility: hidden;
 
 }
+
+#file_item{
+    display: flex;
+
+}
+
+#delete_button {
+    margin: auto;
+}

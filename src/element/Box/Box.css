@@ -8,6 +8,8 @@
     box-shadow: 2px 2px 4px 1px;
     border: none;
     background-color: teal;
+    display: flex;
+    flex-direction: column;
 }
 
 #item:hover {

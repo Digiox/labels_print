@@ -17,3 +17,14 @@ html{
 body{
   height: 300%;
 }
+
+#print_button {
+  margin: auto;
+  text-align: center;
+}
+@media print {
+  html {
+    margin: 0mm;
+    padding: 0mm;
+  }
+}

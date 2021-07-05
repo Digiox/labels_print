@@ -1,0 +1,51 @@
+#label_section {
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 1px solid black;
+    width: 21cm;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.label_item {
+    font-size: 0.6rem;
+    padding: 1mm;
+    width: 4cm;
+    height: 2cm;
+    border: 1px solid red;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.label_row {
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+@page {
+    margin: 0mm;
+}
+@media print {
+    html {
+        margin: 0mm;
+        padding: 0mm;
+    }
+    #label_section {
+        border: none;
+        margin: 0mm;
+        padding: 1cm;
+        width: 21cm;
+        height: 29.7cm;
+    }
+    .label_item {
+        width: 4cm;
+        height: 2cm;
+        border: 1px solid red;
+        
+    }
+}
