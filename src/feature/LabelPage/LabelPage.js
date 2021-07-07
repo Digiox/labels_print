@@ -19,7 +19,7 @@ const LabelPage = (props) => {
         if (props.file && datas === null) {
             setDatas(formatLabelsDatas(props.file))
         }
-    }, [props.file, datas, props.print])
+    }, [props.file, datas, props.print, props])
 
 
     const renderPage = (el, ln) => {

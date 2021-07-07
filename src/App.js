@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import UploadFile from './feature/UploadFile/UploadFile'
 import VerifyFile from './feature/VerifyFile/VerifyFile';
@@ -8,7 +8,6 @@ import html2pdf from 'html2pdf.js'
 function App() {
   const [file, setFile] = useState(null)
   const [printState, setPrintState] = useState(false)
-  console.log('file app ', file)
   return (
     <div>
       <header id='header'>

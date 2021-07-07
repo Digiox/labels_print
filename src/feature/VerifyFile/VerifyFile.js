@@ -7,9 +7,9 @@ const VerifyFile = (props) => {
     const [modal, setModal] = useState(false)
     return (<Box>
         <Modal open={modal} headers={props.headers} filename={props.filename} />
-        <a onClick={() => setModal(!modal)}>
+        <a href='modal_button' onClick={() => setModal(!modal)}>
         <div style={{display:'flex'}}>
-        <img id='verify-img' src="https://img.icons8.com/android/24/000000/search.png" />
+        <img alt='icon_search' id='verify-img' src="https://img.icons8.com/android/24/000000/search.png" />
         <p>Vérifier le fichier</p>
         </div>
         </a>
